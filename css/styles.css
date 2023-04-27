@@ -836,3 +836,122 @@ button {
   visibility: hidden;
   pointer-events: 0;
 }
+
+/**
+  |============================
+  | FORMs MODAL WINDOW
+  |============================
+*/
+
+.title-modal {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--brand-color-navy);
+  margin-top: 24px;
+}
+.modal-form {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 16px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: var(--brand-color-light-slate);
+  position: relative;
+  width: 360px;
+  height: 336px;
+  top: 0;
+  left: 0;
+}
+.user-name {
+  width: 360px;
+  height: 40px;
+  font-size: 12px;
+  margin-top: 4px;
+  padding-left: 38px;
+  pointer-events: none;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  color: var(--brand-color-navy);
+}
+
+.user-phone {
+  width: 360px;
+  height: 40px;
+  font-size: 12px;
+  margin-top: 4px;
+  padding-left: 38px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  color: var(--brand-color-navy);
+}
+.user-email {
+  width: 360px;
+  height: 40px;
+  font-size: 12px;
+  margin-top: 4px;
+  padding-left: 38px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  color: var(--brand-color-navy);
+}
+.user-comment {
+  width: 360px;
+  margin-top: 4px;
+  padding: 8px 16px;
+  resize: none;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: var(--brand-color-navy);
+}
+
+.user-checkbox {
+  width: 16px;
+  height: 16px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: var(--brand-color-light-slate);
+  margin: 0 8px 0 0;
+}
+
+.label-title-chek {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid rgba(46, 47, 66, 0.4); */
+  border-radius: 2px;
+}
+
+.privacy-policy {
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: var(--brand-color-iris);
+  flex: none;
+  order: 1;
+}
+.label-title {
+}
+.form-text {
+  position: relative;
+}
+
+.modal-icon-input {
+  position: absolute;
+  left: 16px;
+  bottom: 11px;
+}
