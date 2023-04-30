@@ -888,7 +888,7 @@ button {
 .is-hidden {
   opacity: 0;
   visibility: hidden;
-  pointer-events: 0;
+  /* pointer-events: 0; */
 }
 /**
   |============================
