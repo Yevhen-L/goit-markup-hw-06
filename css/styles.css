@@ -306,13 +306,11 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
-
 /**
   |============================
   | FUTURES
   |============================
 */
-
 .futures {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -359,7 +357,6 @@ button {
   text-transform: capitalize;
 }
 /* .future-box-icons {} */
-
 .futere-icon-box {
   display: flex;
   align-items: center;
@@ -375,13 +372,11 @@ button {
   justify-content: center;
 } */
 /* .future-icon {} */
-
 /**
   |============================
   | OUR WORKS
   |============================
 */
-
 .our-works {
   padding-bottom: 120px;
 }
@@ -398,13 +393,11 @@ button {
   margin-bottom: 72px;
 }
 /* .title-section {} */
-
 /**
   |============================
   | OUR TEAMS
   |============================
 */
-
 /* .teams {} */
 .team-box {
   background-color: var(--brand-color-cloud);
@@ -455,7 +448,6 @@ button {
   letter-spacing: 0.02em;
   margin: 8px 0;
 }
-
 /**
   |============================
   | CUSTOMERS
@@ -512,13 +504,11 @@ button {
 .customers-icon:focus {
   fill: var(--brand-color-ocean);
 }
-
 /**
   |============================
   | FOOTER
   |============================
 */
-
 .footer-box {
   display: flex;
   align-items: baseline;
@@ -546,7 +536,6 @@ button {
 .link-logo-footer {
   margin-right: 120px;
 }
-
 /**
   |============================
   | MAIM PROTFOLIO
@@ -556,9 +545,7 @@ button {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-
 /* BUTTONS AREA */
-
 .btn-list {
   display: flex;
   justify-content: center;
@@ -600,7 +587,6 @@ button {
   | PORTFOLOI WORKS
   |============================
 */
-
 /* .portfolio-box {} */
 /* .portfolio-card-box {} */
 /* .portfolio-btns-box {}  */
@@ -657,7 +643,6 @@ button {
   | END ACTIV POP-UP
   |============================
 */
-
 .portfolio-img-frame:hover,
 .portfolio-img-frame:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -683,13 +668,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 /**
   |============================
   | Social link
   |============================
 */
-
 /* .social-box {} */
 .social-box-icons {
   align-items: center;
@@ -722,13 +705,11 @@ button {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 /**
   |============================
   | Social footer link
   |============================
 */
-
 .social-title-footer {
   font-weight: 500;
   font-size: 16px;
@@ -737,7 +718,6 @@ button {
   color: var(--brand-color-white);
   margin-bottom: 16px;
 }
-
 .social-box-footer {
   margin-right: 80px;
 }
@@ -769,16 +749,12 @@ button {
   width: 40px;
   height: 40px;
 }
-
 /**
   |============================
-  | BOX-SUBSCRIBE
+  | BOX-FOOTER-SUBSCRIBE
   |============================
 */
-
-.footer-subscribe {
-}
-
+/* .footer-subscribe {} */
 .social-title-footer {
   margin-bottom: 16px;
 }
@@ -791,13 +767,13 @@ button {
   width: 100%;
   height: 100%;
 }
-.footer-form-text {
-}
-.footer-label-email-title {
-}
+/* .footer-form-text {}
+.footer-label-email-title {} */
 .footer-user-email {
   width: 264px;
   height: 40px;
+  outline: 1px solid transparent;
+  outline-offset: -1px;
   background-color: transparent;
   border: 1px solid var(--brand-color-white);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -809,6 +785,13 @@ button {
   letter-spacing: 0.04em;
   padding: 8px 16px;
   color: var(--brand-color-white);
+}
+.footer-user-email::placeholder {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: var(--brand-color-white);
+  transition: 250ms;
 }
 .footer-btn-subscribe {
   color: var(--brand-color-white);
@@ -837,7 +820,6 @@ button {
   top: 10px;
   right: 24px;
 }
-
 /**
    |============================
    | MODAL WINDOW
@@ -908,7 +890,6 @@ button {
   visibility: hidden;
   pointer-events: 0;
 }
-
 /**
   |============================
   | FORMs MODAL WINDOW
@@ -999,17 +980,14 @@ button {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-
   margin-bottom: 24px;
 }
 .user-checkbox {
   appearance: none;
 }
-
 /* .modal-form-agreement-icon {}
 .modal-form-icon-checked {}
 .modal-form-icon-unchecked {} */
-
 .user-checkbox:checked + .modal-form-agreement-icon > .modal-form-icon-checked {
 }
 .modal-form-icon-unchecked {
@@ -1026,7 +1004,6 @@ button {
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 0.04em;
-
   color: var(--brand-color-slate);
 }
 .modal-form-agreement-link {
@@ -1035,7 +1012,6 @@ button {
   letter-spacing: 0.04em;
   color: var(--brand-color-iris);
 }
-
 .btn-modal-send {
   color: var(--brand-color-white);
   background-color: var(--brand-color-iris);
@@ -1051,7 +1027,6 @@ button {
   border-radius: 4px;
   border: none;
   display: block;
-
   transition-property: background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

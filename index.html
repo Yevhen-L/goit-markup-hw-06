@@ -48,7 +48,6 @@
       </address>
     </div>
   </header>
-
   <main class="main">
     <!-- HERO -->
     <section class="hero">
@@ -58,7 +57,6 @@
           Order Service
         </button>
       </div>
-
       <!-- MODAL WINDOW -->
       <div data-modal class="backdrop is-hidden">
         <div class="modal-window">
@@ -86,37 +84,30 @@
             <label class="label-title" for="user_email">Email</label>
             <div class="modal-form-box">
               <input class="modal-form-input" type="email" name="user_email" id="user_email" id="user_email" required
-                pattern="^(?=.*[a-z])(?=.*[A-Z])" />
+                pattern="email@mail.com" />
+              <!-- ^(?=.*[a-z])(?=.*[A-Z]) -->
               <svg class="modal-icon-input" width="18" height="18">
                 <use href="./images/icons.svg#icon-icon-email"></use>
               </svg>
             </div>
-
             <label class="label-title" for="user_message">Comment</label>
             <textarea class="user-comment" name="user_comment" rows="5" placeholder="Text input"></textarea>
-
-
             <label class="label-title-chek">
-
               <input class="user-checkbox" type="checkbox" name="user_checkbox" />
               <svg class="modal-form-agreement-icon" width="16" height="16">
-
                 <use class="modal-form-icon-checked" href="./images/icons.svg#icon-chek-no"></use>
                 <use class="modal-form-icon-unchecked" href="./images/icons.svg#icon-chek-yes"></use>
-
               </svg>
               <span class="modal-form-agreement-text">
                 I accept the terms and conditions of the <a class="modal-form-agreement-link" href="">Privacy
                   Policy</a>
               </span>
-
             </label>
             <button type="submit" class="btn-modal-send">Send</button>
           </form>
         </div>
       </div>
     </section>
-
     <!-- FUTURES -->
     <section class="futures">
       <div class="futures-box container future-box-icons">
@@ -470,7 +461,6 @@
       </div>
       <div class="footer-subscribe">
         <p class="social-title-footer">Subscribe</p>
-
         <form class="footer-form-subscribe">
           <label class="footer-form-text">
             <input class="footer-user-email" type="email" name="user_email" placeholder="E-mail" />
@@ -480,12 +470,7 @@
             <use href="./images/icons.svg#icon-icon-subscribe"></use>
           </svg>
         </form>
-
       </div>
-
-
-
-
     </div>
   </footer>
   <script src="./js/modal.js"></script>
