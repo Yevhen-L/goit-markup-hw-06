@@ -806,7 +806,7 @@ button {
   padding: 8px 24px;
   border-radius: 4px;
   border: none;
-   margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
   font-size: 16px;
   transition-property: background-color, box-shadow;
@@ -814,13 +814,14 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   align-items: center;
-  gap: 16px;
+  /* gap: 16px; */ 
 }
 .footer-icon-subscribe {
   /* position: absolute; */
   fill: var(--brand-color-white);
-  top: 10px;
-  right: 24px;
+  margin-left: 16px;
+  /* top: 10px;
+  right: 24px; */
 }
 /**
    |============================
@@ -844,14 +845,14 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   width: 408px;
   min-height: 584px;
   background: var(--brand-color-dairy);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
   transition: transform 300ms ease-in 200ms, opacity 300ms ease-in 200ms;
   transform: translate(-50%, -50%) scale(1);
 }
@@ -866,6 +867,9 @@ button {
   transition-delay: 250ms;
 }
 .modal-btn-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -901,7 +905,7 @@ button {
   font-size: 16px;
   line-height: 24px;
   display: block;
-  margin: 16px 0 14px 0;
+  margin-bottom: 14px;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--brand-color-navy);
@@ -911,6 +915,7 @@ button {
   padding: 0;
 }
 .label-title {
+  display: block;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.04em;
